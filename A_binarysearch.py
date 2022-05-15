@@ -20,6 +20,7 @@ def preOrder(node):
     preOrder(node.right)
     preOrder(node.left) 
        
+        
     
 result = sorted_array_to_bst([1, 2, 3, 4, 5, 6,7])
 preOrder(result)
